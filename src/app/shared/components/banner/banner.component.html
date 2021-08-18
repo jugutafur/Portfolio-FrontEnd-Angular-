@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="banner_marca">
+        <h1>Juan Tafur</h1>
+        <p>{{today | date}}</p>
+    </div>
+    
+    <div class="banner_menu">
+        <nav>
+            <ul>
+                <li *ngFor="let i of paginas" >
+                    <a routerLink="/{{i}}" routerLinkActive="active">{{i}}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

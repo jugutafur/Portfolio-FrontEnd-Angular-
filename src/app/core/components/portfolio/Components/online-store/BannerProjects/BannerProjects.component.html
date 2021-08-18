@@ -1,0 +1,41 @@
+<div class="container">
+    <!-- imagen logo -->
+    <div class="banner-imagenLogo">
+        <picture>
+            <!-- <source media="(min-width:1300px)" srcset="Imagenlarge">
+            <source media="(min-width:1000px)" srcset="ImageMedium"> -->
+            <img [src]="imagenLogo" alt="{{varible}}" title="imagen de {{varible}}">
+            <!-- <figcaption>imagen de {{varible}}</figcaption> -->
+        </picture> 
+    </div> 
+
+    <!-- menu -->
+    <div class="banner-menu">
+        <ul>
+            <li *ngFor="let i of paginas" class="prueba" >
+                <a routerLink="/{{i}}" routerLinkActive="active"><span>i</span>{{i}}</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class=" banner-search">
+        <button>
+            <span></span>
+        </button>
+        <div>
+            <span>carrito DExzO</span>
+            <span>cantidad</span>
+        </div>
+    </div>
+
+    <!-- swiper -->
+    <div class="swiper-container" [id]="quitarBanner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let i of imagenes">
+                <img [src]="i" alt="imagen de banner">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</div>

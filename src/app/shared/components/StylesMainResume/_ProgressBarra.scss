@@ -1,0 +1,159 @@
+// progress skills
+
+.bar{
+    margin-top: 0.3rem;
+    background: rgb(35, 35, 53);    
+    display: block;
+    height: 1rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(178, 178, 207);
+}
+
+.bar span{
+    height: 2rem;
+    float: left;
+    background: white;
+}
+
+.teamwork{
+    width: $teamwork;
+    animation: teamwork 2s;
+    // background: red;
+}
+
+.Creativity{
+    width: $Creativity;
+    animation: Creativity 2s;
+}
+
+.Innovation{
+    width: $Innovation;
+    animation: Innovation 2s;
+}
+
+.Communication{
+    width: $Communication;
+    animation: Communication 2s;
+}
+
+.Presetation{
+    width: $Presetation;
+    animation: Presetation 2s;
+}
+
+.Motivation{
+    width: $Motivation;
+    animation: Motivation 2s;
+}
+
+@keyframes teamwork {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $teamwork;
+    }
+}
+
+@keyframes Creativity {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Creativity;
+    }
+}
+
+@keyframes Innovation {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Innovation;
+    }
+}
+
+@keyframes Communication {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Communication;
+    }
+}
+
+@keyframes Presetation {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Presetation;
+    }
+}
+
+@keyframes Motivation {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Motivation;
+    }
+}
+
+.VsC{
+    width: $VsC;
+    animation: VsC 2s;
+}
+
+.Github{
+    width: $Github;
+    animation: Github 2s;
+}
+
+.Netbeans{
+    width: $Netbeans;
+    animation: Netbeans 2s;
+}
+
+.Eclipse{
+    width: $Eclipse;
+    animation: Eclipse 2s;
+}
+
+@keyframes VsC {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $VsC;
+    }
+}
+
+@keyframes Github {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Github;
+    }
+}
+
+@keyframes Netbeans {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Netbeans;
+    }
+}
+
+@keyframes Eclipse {
+    0%{
+        width: 0%;
+    }    
+    100%{
+        width: $Eclipse;
+    }
+}

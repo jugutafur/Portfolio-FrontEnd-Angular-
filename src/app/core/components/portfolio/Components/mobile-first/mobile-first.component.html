@@ -1,0 +1,69 @@
+<div class="main">
+    <div class="botones">
+        <input (click)="Mobile()" class="Mobile" type="button" value="Mobile">
+        <!-- <button (click)="CambiarPantalla()" >web</button> -->
+        <input (click)="Web()" class="Web" type="button" value="Web">
+    </div>
+
+    <div class="pantalla" [id]="cambio">
+    <header>
+        <img [src]="prueba" alt="logo" title="Logo">
+
+        <div class="header--title">
+            <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
+            <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+            <a href="">Conoce Nuestros Planes <span></span></a>
+        </div>
+    </header>
+
+        <section id="containerExchange">
+            <div id="containerExchange--Imagen"></div>
+            <div id="containerExchange--title">
+                <h2>Visibilizamos todas las tasas de cambio.</h2>
+                <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+            </div>
+            <section id="containerExchange--containerTables">
+                <div id="containerExchange--containerTables__tabla">
+                    <p>Monedas</p>
+                    <div id="containerExchange--containerTables__tabla__tabla">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>criptomonedas</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bitcoin</td>
+                                    <td class="table__right">$1.96s <span>b</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Etherium</td>
+                                    <td class="table__right">$0.17 <span>s</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Ripple</td>
+                                    <td class="table__right">$2.15 <span>b</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Stellar</td>
+                                    <td class="table__right">$4.96 <span>b</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="containerExchange--containerTables__current">
+                        <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </div>
+</div>

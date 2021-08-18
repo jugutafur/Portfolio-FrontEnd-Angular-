@@ -1,0 +1,43 @@
+<!-- mainselectores -->
+<div>
+    <ul class="main-selectores">
+        <li *ngFor="let variable of menus">
+            <div>
+                <a>
+                    <img [src]="variable.imagen" alt="{{variable.title}}">
+                    <h2>{{variable.title}}</h2>
+                    <p><strong>{{variable.descripcion}}</strong></p>
+                </a>
+            </div>
+        </li>
+    </ul>
+    
+</div>
+
+<!-- slider -->
+<div class="slider">
+    <picture>
+        <!-- <source media="(min-width:1300px)" srcset="Imagenlarge">
+        <source media="(min-width:1000px)" srcset="ImageMedium"> -->
+        <img [src]="promo1" alt="slider" title="slider">
+        <!-- <figcaption>slider-2</figcaption> -->
+    </picture>
+</div>
+
+<!-- galery -->
+<div class="galery">
+    <div>
+        <!-- <source media="(min-width:1300px)" srcset="Imagenlarge">
+        <source media="(min-width:1000px)" srcset="ImageMedium"> -->
+        <img [src]="papa" alt="galery 1" title="galery 1">
+        <!-- <figcaption>galery 1</figcaption> -->
+        <p>Para PaPá</p>
+    </div>
+    <div>
+        <!-- <source media="(min-width:1300px)" srcset="Imagenlarge">
+        <source media="(min-width:1000px)" srcset="ImageMedium"> -->
+        <img [src]="mama" alt="galery 2" title="galery 2">
+        <!-- <figcaption>galery 2</figcaption> -->
+        <p>Para mamá</p>
+    </div>
+</div>

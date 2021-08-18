@@ -1,0 +1,162 @@
+.main{
+    background-color: white;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.main-banner{
+    display: flex;
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+}
+
+.main-banner p{
+    display: inline-block;
+    padding-right: 2rem;
+    font-size: 2rem ;
+    cursor: pointer;
+}
+
+.main-banner .main-banner_Aplicaciones img{
+    // border-radius: 50%;
+    width: 6rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.main-banner .main-banner_Cuenta img{
+    border-radius: 50%;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.logoGoogle{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+
+.main-input-container {
+    width: 50%;
+    margin: 0 auto;
+    outline: none;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #b6b7b9;
+    display: flex;
+    // justify-content: flex-start;
+    // align-items: center;
+}
+
+.main-input-container:hover {
+    box-shadow: 0 1px 6px 0 black;
+}
+
+
+.main-input-container .browser {
+    border: none;
+    outline: none;
+    cursor: auto;
+    font-size: 3rem;
+}
+
+.main .main-input-container .search-icon {
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.main .main-input-container .micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-left: 16rem;
+  }
+  
+.main .main-buttons{
+    width: 50%;
+    margin: 2rem auto;
+    //   background-color: blue;
+      display: flex;
+      padding-right: 2rem;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 6rem;
+  }
+  
+  
+.main .main-buttons button {
+    padding: 1rem 2rem;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    border: 0;
+    font-size: 2rem;
+    color: #262727;
+    margin: 0 5px;
+  }
+  
+.main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    background-color: #f8f8f8;
+  }
+
+.main_footer{
+    font-size: 2rem;
+    background-color: #c6c6c6;
+}
+
+.main_footer p{
+    display: inline-block;
+    margin: 0 1rem;
+    color: #494848;
+    cursor: pointer;
+}
+
+.main_footer p:hover{
+    border-bottom: 1px solid #494848;
+}
+
+.main_footer .main_footerSecond{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_footer .main_footerSecond .left{
+    display: inline-block;
+}
+
+.main_footer .main_footerSecond .rigth{
+    display: inline-block;
+}
+//   -----------------------
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: var(--primary-font);
+    color: black;
+    cursor: pointer;
+}

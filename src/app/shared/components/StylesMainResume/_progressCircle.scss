@@ -1,0 +1,104 @@
+// circular-progress
+
+$alto: 9rem;
+$ancho: 9rem;
+
+.circular-progress{
+    &,
+    &:before,
+    &:after{
+        width: $ancho;
+        height: $alto;
+        border-radius: 50%;
+    }
+    margin: 1rem auto;
+    position: relative;
+    // transform: rotate(120deg);  //esta regla css la comento pues estara en el mixin 
+    // background: linear-gradient(0deg, white 50%, rgba(#fff,.2) 50%);  //comentar
+    &:before,
+    &:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        // color: white; //comentar
+        text-align: center;
+    }
+    &:before{
+        // background: rgb(35, 35, 53) content-box; //comentar
+        padding: .5rem;
+        box-sizing: border-box;
+        font-size: 1rem;
+        line-height: 7rem;
+        text-transform: uppercase;
+
+        // content: "html5";   //comentar
+        // transform: rotate(-120deg); //comentar
+    }
+    &:after{
+        // background: linear-gradient(transparent 50%, rgb(35, 35, 53) 50%); //comentar
+        line-height: 10rem;
+
+        // content: "70%"; //comentar
+        // transform: scale(1.1)rotate(-120deg); //comentar
+    }  
+}
+
+@function progress($percent){       //creamos una funcion la cual recibe como parametro un valor
+    $deg: $percent/100*180;         // des esta manera calculamos la rotacion de maenra automatica
+    @return #{$deg}deg;             //devulve un valor con numero concatenado a un string
+}
+
+@mixin circular-progress($percent, $skill){     //creamos de manera automatica la creacion de codigo css
+    $progress: progress($percent);              //a la variable $progress le pasamos la funcion progress y $percent como argumento
+    transform: rotate($progress);
+    background: linear-gradient(0deg, white 50%, rgba(#fff,.2) 50%);  //comentar
+    &:before,
+    &:after{
+        color: white;
+        // color:$color; la comento pues el mixin no recibira este argumento pero lo pongo a modo de ejemplo
+    }
+    &:before{
+        
+        content: "#{$skill}";
+        background: rgb(35, 35, 53) content-box;    
+        // background: $bgcolor content-box;    tampoco $bgcolor se recibe como parametro
+        transform: rotate(-#{$progress});
+    }
+    &:after{
+        content: "#{$percent}%";
+        background: linear-gradient(transparent 50%, rgb(35, 35, 53) 50%);
+        transform: scale(1.1)rotate(-#{$progress});
+    }
+}
+
+.HTML5 .circular-progress{
+    @include circular-progress(90,HTML5)
+}
+
+.CSS3 .circular-progress{
+    @include circular-progress(85,CSS3)
+}
+
+.JavaScript .circular-progress{
+    @include circular-progress(78,JavaScript)
+}
+
+.Java .circular-progress{
+    @include circular-progress(70,Java)
+}
+
+.Php .circular-progress{
+    @include circular-progress(60,Php)
+}
+
+.Sql .circular-progress{
+    @include circular-progress(80,Sql)
+}
+
+.Scrum .circular-progress{
+    @include circular-progress(86,Scrum)
+}
+
+.ResponsiveWebDesign .circular-progress{
+    @include circular-progress(75,Responsive)
+}

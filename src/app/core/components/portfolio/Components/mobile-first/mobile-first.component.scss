@@ -1,0 +1,216 @@
+
+.botones{
+    // background-color: red;
+    text-align: center;
+    padding: 3rem 0;
+    // padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.botones input{
+    // background-color: blue;
+    font-size: 4rem;
+    margin: 0 3rem;
+    padding: 1rem 3rem;
+}
+
+.pantalla{
+    border: 3px solid black;
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+#Mobile{
+    width: 330px;
+}
+
+#Web{
+    width: 1200px;
+}
+
+
+.main{
+    background-color: white;
+    width: 90%;
+    margin: 2rem auto;
+    margin-bottom: 3rem;
+}
+
+    $font-sans:"DM Sans", sans-serif;
+    $font-Inter:"Inter", sans-serif;
+    $size-300:300;
+    $size-400:400;
+    $size-500:500;
+    $size-700:700;
+    $background:#E5E5E5;
+    $linear-grandient:207.8deg,#201E1C 16.69%, #F7931A 100%;
+    $Bitcoin-Orange:#F7931A;
+    $Soft-Orange:#FFE9D5;
+    $Secounddary_Blue:#1A9AF7;
+    $Soft_Blue:#E7F5FF;
+    $Warm-Black:#201E1C;
+    $Warm-Black1:#282623;
+    $Grey:#BABABA;
+    $Off-White:#FAF8F7;
+    $Just-White:#FFFFFF;
+    $prueba: green;
+  
+  
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient($linear-grandient);
+  }
+  
+  header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 64px;
+    align-self: center;
+  }
+  
+  .header--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .header--title h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: $Just-White;
+  }
+  
+  .header--title p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: $Soft-Orange;
+  }
+  
+  .header--title a {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270pxs;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: $Off-White;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: Warm-Black;
+  }
+  
+  .header--title a span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../../../../../../assets/projects/MobileFirst/MobileFirst.PNG");
+  }
+  
+  #containerExchange {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  #containerExchange--title {
+    width: 100%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #containerExchange--Imagen {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("assets/imgs/bitcoin.svg");
+    background-size: none;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #containerExchange--title h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: $Warm-Black;
+  }
+  
+  #containerExchange--title p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+  }
+  
+  #containerExchange--containerTables__tabla {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+  }
+  
+  #containerExchange--containerTables__tabla p {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: $Bitcoin-Orange;
+  }
+  
+  #containerExchange--containerTables__tabla__tabla {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #containerExchange--containerTables__tabla__tabla table {
+    margin: 0 auto;
+    text-align: left;
+    color: $Grey;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    background-color: $Just-White;
+    border-radius: 5px;
+    padding: 1px 0px;
+  }
+  
+  #containerExchange--containerTables__tabla #containerExchange--containerTables__current p {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: green;
+  }
+  
+  /*# sourceMappingURL=estilos.css.map */
+  

@@ -1,0 +1,18 @@
+@import '../_variables';
+
+.container .banner{
+    // background-color: rgb(78, 124, 223);
+    background-color: $principal;
+    // background-color: #939799;
+    color: white;
+    padding-top: 1rem;
+    line-height: 5rem;
+    padding-left: 37rem;
+    position: relative;
+}
+
+.banner img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

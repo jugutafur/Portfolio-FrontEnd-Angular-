@@ -1,0 +1,99 @@
+@import '../variables';
+
+.banner_swiper-fondo{
+    background-color: white;
+}
+
+.imagen{    
+    display: block;
+    height: 10rem;
+    width: 30rem;
+}
+
+div ul li{
+    display: inline-block;
+    margin: 0 3rem;
+}
+
+li a{
+    color: $principal;
+    text-decoration: none;
+    list-style: none;
+    font-size: 3rem;
+}
+
+li a.active{
+    border-bottom: 2px solid #939799;;
+}
+
+.container{
+    display: grid;
+    background: #3B4346 url('../../../../assets/bg01.jpg');
+    grid-template-columns: repeat(2,minmax(4rem,1fr));
+    grid-template-rows: repeat(1,minmax(4rem, 10rem));
+    justify-items: center;
+    align-items: center;
+}
+
+.container  .banner_marca{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.container  .banner_marca p{
+    font-size: 1rem;
+    color: $principal;
+}
+
+.container .banner_menu{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+    
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,minmax(8rem, 1fr));
+        padding-left: 1rem;
+        justify-items: start;
+        align-items: center;
+    }
+    
+    .container  .banner_marca{
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 2rem;
+        color:white;
+    }
+    
+    .container  .banner_marca p{
+        font-size: 1rem;
+        color: $principal;
+    }
+    
+    .container .banner_menu{
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-items: center;
+        align-items: center;
+        color: white;
+    }
+
+    .container .banner_menu a{
+        font-size: 2rem;
+    }
+}

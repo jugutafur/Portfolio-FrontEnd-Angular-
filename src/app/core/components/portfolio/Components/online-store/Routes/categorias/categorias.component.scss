@@ -1,0 +1,36 @@
+.container2{
+    width: 90%;
+    margin: 1rem auto;
+    // margin-left: 3rem;
+    padding: 3rem 3rem;
+    // background-color: blue;
+    display: grid;
+    // grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    row-gap: 4rem ;
+    column-gap: 0.1rem;
+}
+
+.Galeria{
+    // background-color: purple;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.Galeria:hover{
+    box-shadow: rgb(170, 152, 152) 5px 20px 5px ;
+}
+
+.Galeria img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Galeria p{
+    text-align: center;
+    font-size: 2rem;
+}

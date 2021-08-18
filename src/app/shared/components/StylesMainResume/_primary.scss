@@ -1,0 +1,39 @@
+$teamwork: 92%;
+$Creativity: 90%;
+$Innovation: 80%;
+$Communication: 90%;
+$Presetation: 85%;
+$Motivation: 98%;
+
+$VsC: 80%;
+$Github: 80%;
+$Netbeans: 70%;
+$Eclipse: 75%;
+
+.container .primary{
+    background-color: rgb(35, 35, 53);
+    padding: 1rem 0;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.primary img{
+    border-radius: 100%;
+    margin: 2rem auto;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(178, 178, 207);
+}
+
+p{
+    font-size: var(--fontp);
+}
+
+.primary h2 {
+    border: 1px solid rgb(114, 114, 146) ;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+

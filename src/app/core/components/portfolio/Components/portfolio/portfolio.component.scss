@@ -1,0 +1,42 @@
+@import '../../../../../shared/components/_variables';
+
+.main-selectores{
+    display: grid;
+    margin-left: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    column-gap: 2rem;
+}
+
+.main-selectores div{
+    text-decoration: none;
+    list-style: none;
+    max-width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3rem 0;
+    background: url('../../../../../../assets/bg01.jpg');
+}
+
+.main-selectores div a img{
+    width: 100%;
+    height: 15rem;
+}
+
+.main-selectores div:hover{
+    box-shadow: rgb(170, 152, 152) 5px 20px 5px ;
+}
+
+.main-selectores div a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.main-selectores div a p{
+    color: $principal;
+    text-align: center;
+}
+
+.main-selectores div a h2{
+    text-align: center;
+}

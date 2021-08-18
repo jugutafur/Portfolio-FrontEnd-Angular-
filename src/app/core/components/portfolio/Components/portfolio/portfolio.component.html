@@ -1,0 +1,13 @@
+<div class="main">
+    <ul class="main-selectores">
+        <li *ngFor="let projecto of menus">
+            <div>
+                <a routerLink="/{{projecto.project}}" routerLinkActive="active">
+                    <img [src]="projecto.imagen" alt="{{projecto.title}}">
+                    <h2>{{projecto.title}}</h2>
+                    <p>{{projecto.descripcion}}</p>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
