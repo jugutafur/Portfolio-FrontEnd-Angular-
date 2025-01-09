@@ -10,6 +10,7 @@ import { DrawCssComponent } from './Components/draw-css/draw-css.component';
 import { GaleyImagesComponent } from './Components/galey-images/galey-images.component';
 import { MathFunctionsComponent } from './Components/math-functions/math-functions.component';
 import { MobileFirstComponent } from './Components/mobile-first/mobile-first.component';
+import { ProjectsWebComponent } from './Components/projects-web/projects-web.component';
 // import { OnlineStoreComponent } from './Components/online-store/online-store/online-store.component';
 
 const routes : Routes = [
@@ -44,6 +45,10 @@ const routes : Routes = [
     {
         path: 'MobileFirst',
         component: MobileFirstComponent
+    },
+    {
+      path: 'Projects Web',
+      component: ProjectsWebComponent
     },
     {
         path: 'OnlineStore',
