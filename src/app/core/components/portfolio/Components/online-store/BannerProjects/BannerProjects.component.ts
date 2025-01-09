@@ -1,9 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-BannerProjects',
-  templateUrl: './BannerProjects.component.html',
-  styleUrls: ['./BannerProjects.component.scss']
+    selector: 'app-BannerProjects',
+    templateUrl: './BannerProjects.component.html',
+    styleUrls: ['./BannerProjects.component.scss'],
+    standalone: false
 })
 export class BannerProjectsComponent implements OnInit {
 

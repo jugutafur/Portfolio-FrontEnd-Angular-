@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-browser',
-  templateUrl: './browser.component.html',
-  styleUrls: ['./browser.component.scss']
+    selector: 'app-browser',
+    templateUrl: './browser.component.html',
+    styleUrls: ['./browser.component.scss'],
+    standalone: false
 })
 export class BrowserComponent implements OnInit {
 

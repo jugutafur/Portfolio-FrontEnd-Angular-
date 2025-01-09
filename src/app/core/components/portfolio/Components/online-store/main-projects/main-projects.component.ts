@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { menu } from '../../../../../models/menus.model';
 
 @Component({
-  selector: 'app-mainProjects',
-  templateUrl: './main-projects.component.html',
-  styleUrls: ['./main-projects.component.scss']
+    selector: 'app-mainProjects',
+    templateUrl: './main-projects.component.html',
+    styleUrls: ['./main-projects.component.scss'],
+    standalone: false
 })
 export class MainProjectsComponent implements OnInit {
 

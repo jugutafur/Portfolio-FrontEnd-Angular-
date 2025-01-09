@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { articulos } from '../../../../../../models/articulos.model'
 
 @Component({
-  selector: 'app-categorias',
-  templateUrl: './categorias.component.html',
-  styleUrls: ['./categorias.component.scss']
+    selector: 'app-categorias',
+    templateUrl: './categorias.component.html',
+    styleUrls: ['./categorias.component.scss'],
+    standalone: false
 })
 export class CategoriasComponent implements OnInit {
 

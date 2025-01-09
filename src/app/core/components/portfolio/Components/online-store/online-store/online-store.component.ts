@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import Swiper  from 'swiper';
 
 @Component({
-  selector: 'app-online-store',
-  templateUrl: './online-store.component.html',
-  styleUrls: ['./online-store.component.scss']
+    selector: 'app-online-store',
+    templateUrl: './online-store.component.html',
+    styleUrls: ['./online-store.component.scss'],
+    standalone: false
 })
 export class OnlineStoreComponent {
 

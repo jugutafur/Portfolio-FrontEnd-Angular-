@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-mobile-first',
-  templateUrl: './mobile-first.component.html',
-  styleUrls: ['./mobile-first.component.scss']
+    selector: 'app-mobile-first',
+    templateUrl: './mobile-first.component.html',
+    styleUrls: ['./mobile-first.component.scss'],
+    standalone: false
 })
 export class MobileFirstComponent implements OnInit {
 

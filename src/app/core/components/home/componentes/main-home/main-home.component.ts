@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { modelo } from './tecnologias.mode';
 
 @Component({
-  selector: 'app-main-home',
-  templateUrl: './main-home.component.html',
-  styleUrls: ['./main-home.component.scss']
+    selector: 'app-main-home',
+    templateUrl: './main-home.component.html',
+    styleUrls: ['./main-home.component.scss'],
+    standalone: false
 })
 export class MainHomeComponent implements OnInit {
 

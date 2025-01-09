@@ -6,9 +6,10 @@ import { ProductsService } from '../../../../products.service'  //esto es la inj
 import { articulos } from '../../../../articulos.model'
 
 @Component({
-  selector: 'app-details',
-  templateUrl: './details.component.html',
-  styleUrls: ['./details.component.scss']
+    selector: 'app-details',
+    templateUrl: './details.component.html',
+    styleUrls: ['./details.component.scss'],
+    standalone: false
 })
 export class DetailsComponent implements OnInit {
 
