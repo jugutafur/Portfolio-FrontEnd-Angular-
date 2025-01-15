@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
-
+import { ProjectsWebComponent } from './Components/projects-web/projects-web.component';
 import { BrowserComponent } from './Components/browser/browser.component';
 import { CalculatorComponent } from './Components/calculator/calculator.component';
 import { DrawCssComponent } from './Components/draw-css/draw-css.component';
@@ -24,6 +24,7 @@ import { OnlineStoreModule } from './Components/online-store/online-store.module
         GaleyImagesComponent,
         MathFunctionsComponent,
         MobileFirstComponent,
+        ProjectsWebComponent
     ],
     imports:[
         CommonModule,

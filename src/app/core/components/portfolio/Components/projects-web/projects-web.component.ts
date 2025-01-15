@@ -4,7 +4,8 @@ import { proyects } from '../../../../models/proyectos.model';
 @Component({
   selector: 'app-projects-web',
   templateUrl: './projects-web.component.html',
-  styleUrl: './projects-web.component.scss'
+  styleUrls: ['./projects-web.component.scss'],
+  standalone: false
 })
 export class ProjectsWebComponent {
 
